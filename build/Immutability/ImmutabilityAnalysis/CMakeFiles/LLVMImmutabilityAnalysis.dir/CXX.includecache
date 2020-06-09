@@ -36,6 +36,14 @@ clang/Tooling/CompilationDatabase.h
 llvm/Support/Debug.h
 -
 
+/home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/FunctionAnalysis.cpp
+FunctionAnalysis.h
+/home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/FunctionAnalysis.h
+Debug.h
+/home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/Debug.h
+TypeUtil.h
+/home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/TypeUtil.h
+
 /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/FunctionAnalysis.h
 Graph.h
 /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/Graph.h
@@ -201,4 +209,8 @@ ClassQuery.h
 /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/ClassQuery.h
 MemQuery.h
 /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/MemQuery.h
+
+/home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/TypeUtil.h
+llvm/IR/DerivedTypes.h
+-
 

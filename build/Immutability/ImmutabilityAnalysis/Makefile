@@ -191,6 +191,33 @@ LLVMImmutabilityAnalysis/fast:
 	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build
 .PHONY : LLVMImmutabilityAnalysis/fast
 
+FunctionAnalysis.o: FunctionAnalysis.cpp.o
+
+.PHONY : FunctionAnalysis.o
+
+# target to build an object file
+FunctionAnalysis.cpp.o:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/FunctionAnalysis.cpp.o
+.PHONY : FunctionAnalysis.cpp.o
+
+FunctionAnalysis.i: FunctionAnalysis.cpp.i
+
+.PHONY : FunctionAnalysis.i
+
+# target to preprocess a source file
+FunctionAnalysis.cpp.i:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/FunctionAnalysis.cpp.i
+.PHONY : FunctionAnalysis.cpp.i
+
+FunctionAnalysis.s: FunctionAnalysis.cpp.s
+
+.PHONY : FunctionAnalysis.s
+
+# target to generate assembly for a file
+FunctionAnalysis.cpp.s:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/FunctionAnalysis.cpp.s
+.PHONY : FunctionAnalysis.cpp.s
+
 ImmutabilityAnalysis.o: ImmutabilityAnalysis.cpp.o
 
 .PHONY : ImmutabilityAnalysis.o
@@ -258,6 +285,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... LLVMImmutabilityAnalysis"
+	@echo "... FunctionAnalysis.o"
+	@echo "... FunctionAnalysis.i"
+	@echo "... FunctionAnalysis.s"
 	@echo "... ImmutabilityAnalysis.o"
 	@echo "... ImmutabilityAnalysis.i"
 	@echo "... ImmutabilityAnalysis.s"

@@ -1,7 +1,7 @@
 add_library(LLVMImmutabilityAnalysis MODULE
   MemQuery.cpp
   ImmutabilityAnalysis.cpp
-
+  FunctionAnalysis.cpp
 )
 
 target_link_libraries(LLVMImmutabilityAnalysis
