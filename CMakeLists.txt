@@ -17,6 +17,7 @@ list(APPEND CMAKE_MODULE_PATH "${LLVM_CMAKE_DIR}")
 include(HandleLLVMOptions)
 include(AddLLVM)
 
+add_subdirectory(Immutability)
 add_subdirectory(Hellooo)
 
 add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)

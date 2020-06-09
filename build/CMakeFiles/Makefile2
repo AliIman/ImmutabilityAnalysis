@@ -73,17 +73,20 @@ CMAKE_BINARY_DIR = /home/vagrant/hello-world-pass/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: Immutability/all
 all: Hellooo/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: Immutability/preinstall
 preinstall: Hellooo/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/intrinsics_gen.dir/clean
+clean: Immutability/clean
 clean: Hellooo/clean
 
 .PHONY : clean
@@ -107,6 +110,42 @@ Hellooo/clean: Hellooo/CMakeFiles/LLVMHellooo.dir/clean
 Hellooo/clean: Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/clean
 
 .PHONY : Hellooo/clean
+
+#=============================================================================
+# Directory level rules for directory Immutability
+
+# Recursive "all" directory target.
+Immutability/all: Immutability/ImmutabilityAnalysis/all
+
+.PHONY : Immutability/all
+
+# Recursive "preinstall" directory target.
+Immutability/preinstall: Immutability/ImmutabilityAnalysis/preinstall
+
+.PHONY : Immutability/preinstall
+
+# Recursive "clean" directory target.
+Immutability/clean: Immutability/ImmutabilityAnalysis/clean
+
+.PHONY : Immutability/clean
+
+#=============================================================================
+# Directory level rules for directory Immutability/ImmutabilityAnalysis
+
+# Recursive "all" directory target.
+Immutability/ImmutabilityAnalysis/all: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/all
+
+.PHONY : Immutability/ImmutabilityAnalysis/all
+
+# Recursive "preinstall" directory target.
+Immutability/ImmutabilityAnalysis/preinstall:
+
+.PHONY : Immutability/ImmutabilityAnalysis/preinstall
+
+# Recursive "clean" directory target.
+Immutability/ImmutabilityAnalysis/clean: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean
+
+.PHONY : Immutability/ImmutabilityAnalysis/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/intrinsics_gen.dir
@@ -134,6 +173,33 @@ intrinsics_gen: CMakeFiles/intrinsics_gen.dir/rule
 CMakeFiles/intrinsics_gen.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/intrinsics_gen.dir/build.make CMakeFiles/intrinsics_gen.dir/clean
 .PHONY : CMakeFiles/intrinsics_gen.dir/clean
+
+#=============================================================================
+# Target rules for target Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir
+
+# All Build rule for target.
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/all:
+	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/depend
+	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=3,4 "Built target LLVMImmutabilityAnalysis"
+.PHONY : Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/all
+
+# Build rule for subdir invocation for target.
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 0
+.PHONY : Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/rule
+
+# Convenience name for target.
+LLVMImmutabilityAnalysis: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/rule
+
+.PHONY : LLVMImmutabilityAnalysis
+
+# clean rule for target.
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean
+.PHONY : Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean
 
 #=============================================================================
 # Target rules for target Hellooo/CMakeFiles/install-LLVMHellooo.dir

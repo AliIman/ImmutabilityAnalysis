@@ -190,6 +190,19 @@ intrinsics_gen/fast:
 .PHONY : intrinsics_gen/fast
 
 #=============================================================================
+# Target rules for targets named LLVMImmutabilityAnalysis
+
+# Build rule for target.
+LLVMImmutabilityAnalysis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LLVMImmutabilityAnalysis
+.PHONY : LLVMImmutabilityAnalysis
+
+# fast build rule for target.
+LLVMImmutabilityAnalysis/fast:
+	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build
+.PHONY : LLVMImmutabilityAnalysis/fast
+
+#=============================================================================
 # Target rules for targets named install-LLVMHellooo
 
 # Build rule for target.
@@ -244,6 +257,7 @@ help:
 	@echo "... install-LLVMHellooo-stripped"
 	@echo "... intrinsics_gen"
 	@echo "... LLVMHellooo"
+	@echo "... LLVMImmutabilityAnalysis"
 .PHONY : help
 
 
