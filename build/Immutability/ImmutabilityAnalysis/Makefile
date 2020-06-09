@@ -191,6 +191,33 @@ LLVMImmutabilityAnalysis/fast:
 	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build
 .PHONY : LLVMImmutabilityAnalysis/fast
 
+ClassQuery.o: ClassQuery.cpp.o
+
+.PHONY : ClassQuery.o
+
+# target to build an object file
+ClassQuery.cpp.o:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ClassQuery.cpp.o
+.PHONY : ClassQuery.cpp.o
+
+ClassQuery.i: ClassQuery.cpp.i
+
+.PHONY : ClassQuery.i
+
+# target to preprocess a source file
+ClassQuery.cpp.i:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ClassQuery.cpp.i
+.PHONY : ClassQuery.cpp.i
+
+ClassQuery.s: ClassQuery.cpp.s
+
+.PHONY : ClassQuery.s
+
+# target to generate assembly for a file
+ClassQuery.cpp.s:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ClassQuery.cpp.s
+.PHONY : ClassQuery.cpp.s
+
 Database.o: Database.cpp.o
 
 .PHONY : Database.o
@@ -312,6 +339,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... LLVMImmutabilityAnalysis"
+	@echo "... ClassQuery.o"
+	@echo "... ClassQuery.i"
+	@echo "... ClassQuery.s"
 	@echo "... Database.o"
 	@echo "... Database.i"
 	@echo "... Database.s"

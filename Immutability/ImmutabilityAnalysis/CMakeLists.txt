@@ -1,4 +1,5 @@
 add_library(LLVMImmutabilityAnalysis MODULE
+  ClassQuery.cpp
   MemQuery.cpp
   ImmutabilityAnalysis.cpp
   FunctionAnalysis.cpp

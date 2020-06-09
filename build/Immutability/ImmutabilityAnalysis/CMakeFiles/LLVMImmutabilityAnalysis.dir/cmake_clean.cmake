@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/LLVMImmutabilityAnalysis.dir/ClassQuery.cpp.o"
   "CMakeFiles/LLVMImmutabilityAnalysis.dir/Database.cpp.o"
   "CMakeFiles/LLVMImmutabilityAnalysis.dir/FunctionAnalysis.cpp.o"
   "CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o"
