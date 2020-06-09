@@ -218,6 +218,33 @@ ImmutabilityAnalysis.cpp.s:
 	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.s
 .PHONY : ImmutabilityAnalysis.cpp.s
 
+MemQuery.o: MemQuery.cpp.o
+
+.PHONY : MemQuery.o
+
+# target to build an object file
+MemQuery.cpp.o:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o
+.PHONY : MemQuery.cpp.o
+
+MemQuery.i: MemQuery.cpp.i
+
+.PHONY : MemQuery.i
+
+# target to preprocess a source file
+MemQuery.cpp.i:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.i
+.PHONY : MemQuery.cpp.i
+
+MemQuery.s: MemQuery.cpp.s
+
+.PHONY : MemQuery.s
+
+# target to generate assembly for a file
+MemQuery.cpp.s:
+	cd /home/vagrant/hello-world-pass/build && $(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.s
+.PHONY : MemQuery.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,6 +261,9 @@ help:
 	@echo "... ImmutabilityAnalysis.o"
 	@echo "... ImmutabilityAnalysis.i"
 	@echo "... ImmutabilityAnalysis.s"
+	@echo "... MemQuery.o"
+	@echo "... MemQuery.i"
+	@echo "... MemQuery.s"
 .PHONY : help
 
 

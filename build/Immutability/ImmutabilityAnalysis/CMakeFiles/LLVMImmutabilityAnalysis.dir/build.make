@@ -77,9 +77,22 @@ include Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.di
 # Include the compile flags for this target's objects.
 include Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/flags.make
 
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/flags.make
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o: ../Immutability/ImmutabilityAnalysis/MemQuery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o"
+	cd /home/vagrant/hello-world-pass/build/Immutability/ImmutabilityAnalysis && /usr/local/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o -c /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/MemQuery.cpp
+
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.i"
+	cd /home/vagrant/hello-world-pass/build/Immutability/ImmutabilityAnalysis && /usr/local/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/MemQuery.cpp > CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.i
+
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.s"
+	cd /home/vagrant/hello-world-pass/build/Immutability/ImmutabilityAnalysis && /usr/local/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/MemQuery.cpp -o CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.s
+
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/flags.make
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o: ../Immutability/ImmutabilityAnalysis/ImmutabilityAnalysis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o"
 	cd /home/vagrant/hello-world-pass/build/Immutability/ImmutabilityAnalysis && /usr/local/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o -c /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/ImmutabilityAnalysis.cpp
 
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.i: cmake_force
@@ -92,17 +105,19 @@ Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/Immuta
 
 # Object files for target LLVMImmutabilityAnalysis
 LLVMImmutabilityAnalysis_OBJECTS = \
+"CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o" \
 "CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o"
 
 # External object files for target LLVMImmutabilityAnalysis
 LLVMImmutabilityAnalysis_EXTERNAL_OBJECTS =
 
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMSupport.a
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMDemangle.a
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module libLLVMImmutabilityAnalysis.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared module libLLVMImmutabilityAnalysis.so"
 	cd /home/vagrant/hello-world-pass/build/Immutability/ImmutabilityAnalysis && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LLVMImmutabilityAnalysis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

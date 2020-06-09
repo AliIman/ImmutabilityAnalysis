@@ -15,3 +15,6 @@ Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/Immuta
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o: ../Immutability/ImmutabilityAnalysis/NodeAliasTracker.h
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o: ../Immutability/ImmutabilityAnalysis/Query.h
 
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o: ../Immutability/ImmutabilityAnalysis/MemQuery.cpp
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o: ../Immutability/ImmutabilityAnalysis/MemQuery.h
+

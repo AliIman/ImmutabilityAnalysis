@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LLVMImmutabilityAnalysis.dir/ImmutabilityAnalysis.cpp.o"
+  "CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o"
   "libLLVMImmutabilityAnalysis.pdb"
   "libLLVMImmutabilityAnalysis.so"
 )

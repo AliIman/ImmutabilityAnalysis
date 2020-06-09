@@ -15,3 +15,6 @@ Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/Immuta
  /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/Node.h
  /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/NodeAliasTracker.h
  /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/Query.h
+Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/MemQuery.cpp.o
+ /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/MemQuery.cpp
+ /home/vagrant/hello-world-pass/Immutability/ImmutabilityAnalysis/MemQuery.h
