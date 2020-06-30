@@ -76,29 +76,6 @@ CMAKE_BINARY_DIR = /home/vagrant/hello-world-pass/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -110,39 +87,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"LLVMHellooo\""
-.PHONY : list_install_components
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -202,45 +156,6 @@ LLVMImmutabilityAnalysis/fast:
 	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build
 .PHONY : LLVMImmutabilityAnalysis/fast
 
-#=============================================================================
-# Target rules for targets named install-LLVMHellooo
-
-# Build rule for target.
-install-LLVMHellooo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 install-LLVMHellooo
-.PHONY : install-LLVMHellooo
-
-# fast build rule for target.
-install-LLVMHellooo/fast:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo.dir/build
-.PHONY : install-LLVMHellooo/fast
-
-#=============================================================================
-# Target rules for targets named LLVMHellooo
-
-# Build rule for target.
-LLVMHellooo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LLVMHellooo
-.PHONY : LLVMHellooo
-
-# fast build rule for target.
-LLVMHellooo/fast:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/LLVMHellooo.dir/build.make Hellooo/CMakeFiles/LLVMHellooo.dir/build
-.PHONY : LLVMHellooo/fast
-
-#=============================================================================
-# Target rules for targets named install-LLVMHellooo-stripped
-
-# Build rule for target.
-install-LLVMHellooo-stripped: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 install-LLVMHellooo-stripped
-.PHONY : install-LLVMHellooo-stripped
-
-# fast build rule for target.
-install-LLVMHellooo-stripped/fast:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/build
-.PHONY : install-LLVMHellooo-stripped/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -248,15 +163,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... install-LLVMHellooo"
-	@echo "... install-LLVMHellooo-stripped"
 	@echo "... intrinsics_gen"
-	@echo "... LLVMHellooo"
 	@echo "... LLVMImmutabilityAnalysis"
 .PHONY : help
 

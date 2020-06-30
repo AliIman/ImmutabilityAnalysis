@@ -74,42 +74,19 @@ CMAKE_BINARY_DIR = /home/vagrant/hello-world-pass/build
 
 # The main recursive "all" target.
 all: Immutability/all
-all: Hellooo/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: Immutability/preinstall
-preinstall: Hellooo/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/intrinsics_gen.dir/clean
 clean: Immutability/clean
-clean: Hellooo/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory Hellooo
-
-# Recursive "all" directory target.
-Hellooo/all: Hellooo/CMakeFiles/LLVMHellooo.dir/all
-
-.PHONY : Hellooo/all
-
-# Recursive "preinstall" directory target.
-Hellooo/preinstall:
-
-.PHONY : Hellooo/preinstall
-
-# Recursive "clean" directory target.
-Hellooo/clean: Hellooo/CMakeFiles/install-LLVMHellooo.dir/clean
-Hellooo/clean: Hellooo/CMakeFiles/LLVMHellooo.dir/clean
-Hellooo/clean: Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/clean
-
-.PHONY : Hellooo/clean
 
 #=============================================================================
 # Directory level rules for directory Immutability
@@ -181,7 +158,7 @@ CMakeFiles/intrinsics_gen.dir/clean:
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/all:
 	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/depend
 	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target LLVMImmutabilityAnalysis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target LLVMImmutabilityAnalysis"
 .PHONY : Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/all
 
 # Build rule for subdir invocation for target.
@@ -200,87 +177,6 @@ LLVMImmutabilityAnalysis: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmut
 Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean
 .PHONY : Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/clean
-
-#=============================================================================
-# Target rules for target Hellooo/CMakeFiles/install-LLVMHellooo.dir
-
-# All Build rule for target.
-Hellooo/CMakeFiles/install-LLVMHellooo.dir/all: Hellooo/CMakeFiles/LLVMHellooo.dir/all
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo.dir/depend
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num= "Built target install-LLVMHellooo"
-.PHONY : Hellooo/CMakeFiles/install-LLVMHellooo.dir/all
-
-# Build rule for subdir invocation for target.
-Hellooo/CMakeFiles/install-LLVMHellooo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hellooo/CMakeFiles/install-LLVMHellooo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 0
-.PHONY : Hellooo/CMakeFiles/install-LLVMHellooo.dir/rule
-
-# Convenience name for target.
-install-LLVMHellooo: Hellooo/CMakeFiles/install-LLVMHellooo.dir/rule
-
-.PHONY : install-LLVMHellooo
-
-# clean rule for target.
-Hellooo/CMakeFiles/install-LLVMHellooo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo.dir/clean
-.PHONY : Hellooo/CMakeFiles/install-LLVMHellooo.dir/clean
-
-#=============================================================================
-# Target rules for target Hellooo/CMakeFiles/LLVMHellooo.dir
-
-# All Build rule for target.
-Hellooo/CMakeFiles/LLVMHellooo.dir/all:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/LLVMHellooo.dir/build.make Hellooo/CMakeFiles/LLVMHellooo.dir/depend
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/LLVMHellooo.dir/build.make Hellooo/CMakeFiles/LLVMHellooo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=1,2 "Built target LLVMHellooo"
-.PHONY : Hellooo/CMakeFiles/LLVMHellooo.dir/all
-
-# Build rule for subdir invocation for target.
-Hellooo/CMakeFiles/LLVMHellooo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hellooo/CMakeFiles/LLVMHellooo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 0
-.PHONY : Hellooo/CMakeFiles/LLVMHellooo.dir/rule
-
-# Convenience name for target.
-LLVMHellooo: Hellooo/CMakeFiles/LLVMHellooo.dir/rule
-
-.PHONY : LLVMHellooo
-
-# clean rule for target.
-Hellooo/CMakeFiles/LLVMHellooo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/LLVMHellooo.dir/build.make Hellooo/CMakeFiles/LLVMHellooo.dir/clean
-.PHONY : Hellooo/CMakeFiles/LLVMHellooo.dir/clean
-
-#=============================================================================
-# Target rules for target Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir
-
-# All Build rule for target.
-Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/all: Hellooo/CMakeFiles/LLVMHellooo.dir/all
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/depend
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num= "Built target install-LLVMHellooo-stripped"
-.PHONY : Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/all
-
-# Build rule for subdir invocation for target.
-Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vagrant/hello-world-pass/build/CMakeFiles 0
-.PHONY : Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/rule
-
-# Convenience name for target.
-install-LLVMHellooo-stripped: Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/rule
-
-.PHONY : install-LLVMHellooo-stripped
-
-# clean rule for target.
-Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/build.make Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/clean
-.PHONY : Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

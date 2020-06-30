@@ -18,6 +18,6 @@ include(HandleLLVMOptions)
 include(AddLLVM)
 
 add_subdirectory(Immutability)
-add_subdirectory(Hellooo)
+#add_subdirectory(Hellooo)
 
 add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)

@@ -164,6 +164,4 @@ bool MemQuery::runOnModule(Module &M) {
 }
 
 char MemQuery::ID = 0;
-static RegisterPass<MemQuery> X("mem-query",
-                                "Mem Queries",
-                                false, true);
+static RegisterPass<MemQuery> X("mem-query", "Mem Queries", false, true);

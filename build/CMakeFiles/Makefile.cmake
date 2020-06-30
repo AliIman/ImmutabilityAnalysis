@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../Hellooo/CMakeLists.txt"
   "../Immutability/CMakeLists.txt"
   "../Immutability/ImmutabilityAnalysis/CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
@@ -138,14 +137,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Immutability/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Immutability/ImmutabilityAnalysis/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Hellooo/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/intrinsics_gen.dir/DependInfo.cmake"
   "Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/DependInfo.cmake"
-  "Hellooo/CMakeFiles/install-LLVMHellooo.dir/DependInfo.cmake"
-  "Hellooo/CMakeFiles/LLVMHellooo.dir/DependInfo.cmake"
-  "Hellooo/CMakeFiles/install-LLVMHellooo-stripped.dir/DependInfo.cmake"
   )

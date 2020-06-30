@@ -28,13 +28,13 @@ The CXX compiler identification is Clang, found in "/home/vagrant/hello-world-pa
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_56214/fast && /usr/bin/make  -f CMakeFiles/cmTC_56214.dir/build.make CMakeFiles/cmTC_56214.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0271e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0271e.dir/build.make CMakeFiles/cmTC_0271e.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_56214.dir/testCCompiler.c.o
-/usr/local/bin/clang    -o CMakeFiles/cmTC_56214.dir/testCCompiler.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_56214
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56214.dir/link.txt --verbose=1
-/usr/local/bin/clang      CMakeFiles/cmTC_56214.dir/testCCompiler.c.o  -o cmTC_56214 
+Building C object CMakeFiles/cmTC_0271e.dir/testCCompiler.c.o
+/usr/local/bin/clang    -o CMakeFiles/cmTC_0271e.dir/testCCompiler.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0271e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0271e.dir/link.txt --verbose=1
+/usr/local/bin/clang      CMakeFiles/cmTC_0271e.dir/testCCompiler.c.o  -o cmTC_0271e 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -42,10 +42,10 @@ make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMak
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_884a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_884a2.dir/build.make CMakeFiles/cmTC_884a2.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0b9d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b9d2.dir/build.make CMakeFiles/cmTC_0b9d2.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o
-/usr/local/bin/clang   -v -o CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/clang   -v -o CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c
 clang version 8.0.1 (tags/RELEASE_801/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -56,7 +56,7 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -faddrsig
+ "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -faddrsig
 clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-unknown-linux-gnu
 ignoring nonexistent directory "/include"
 #include "..." search starts here:
@@ -66,9 +66,9 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking C executable cmTC_884a2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_884a2.dir/link.txt --verbose=1
-/usr/local/bin/clang     -v CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o  -o cmTC_884a2 
+Linking C executable cmTC_0b9d2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b9d2.dir/link.txt --verbose=1
+/usr/local/bin/clang     -v CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o  -o cmTC_0b9d2 
 clang version 8.0.1 (tags/RELEASE_801/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -79,7 +79,7 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_884a2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b9d2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -103,10 +103,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_884a2/fast && /usr/bin/make  -f CMakeFiles/cmTC_884a2.dir/build.make CMakeFiles/cmTC_884a2.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_0b9d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b9d2.dir/build.make CMakeFiles/cmTC_0b9d2.dir/build]
   ignore line: [make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/local/bin/clang   -v -o CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/clang   -v -o CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
   ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [ "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -faddrsig]
+  ignore line: [ "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake-3.17/Modules/CMakeCCompilerABI.c -faddrsig]
   ignore line: [clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-unknown-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [#include "..." search starts here:]
@@ -131,9 +131,9 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_884a2]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_884a2.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/clang     -v CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o  -o cmTC_884a2 ]
+  ignore line: [Linking C executable cmTC_0b9d2]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b9d2.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/clang     -v CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o  -o cmTC_0b9d2 ]
   ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -148,7 +148,7 @@ Parsed C implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_884a2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0b9d2 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [--hash-style=both] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -157,7 +157,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_884a2] ==> ignore
+    arg [cmTC_0b9d2] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
@@ -173,7 +173,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_884a2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_0b9d2.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -205,13 +205,13 @@ Parsed C implicit link information from above output:
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a2398/fast && /usr/bin/make  -f CMakeFiles/cmTC_a2398.dir/build.make CMakeFiles/cmTC_a2398.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b8510/fast && /usr/bin/make  -f CMakeFiles/cmTC_b8510.dir/build.make CMakeFiles/cmTC_b8510.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a2398.dir/testCXXCompiler.cxx.o
-/usr/local/bin/clang++     -o CMakeFiles/cmTC_a2398.dir/testCXXCompiler.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_a2398
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2398.dir/link.txt --verbose=1
-/usr/local/bin/clang++       CMakeFiles/cmTC_a2398.dir/testCXXCompiler.cxx.o  -o cmTC_a2398 
+Building CXX object CMakeFiles/cmTC_b8510.dir/testCXXCompiler.cxx.o
+/usr/local/bin/clang++     -o CMakeFiles/cmTC_b8510.dir/testCXXCompiler.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b8510
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8510.dir/link.txt --verbose=1
+/usr/local/bin/clang++       CMakeFiles/cmTC_b8510.dir/testCXXCompiler.cxx.o  -o cmTC_b8510 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -219,10 +219,10 @@ make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMak
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ff44f/fast && /usr/bin/make  -f CMakeFiles/cmTC_ff44f.dir/build.make CMakeFiles/cmTC_ff44f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3c789/fast && /usr/bin/make  -f CMakeFiles/cmTC_3c789.dir/build.make CMakeFiles/cmTC_3c789.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/local/bin/clang++    -v -o CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/clang++    -v -o CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
 clang version 8.0.1 (tags/RELEASE_801/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -233,7 +233,7 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -faddrsig
+ "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -faddrsig
 clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-unknown-linux-gnu
 ignoring nonexistent directory "/include"
 ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"
@@ -247,9 +247,9 @@ ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../includ
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking CXX executable cmTC_ff44f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff44f.dir/link.txt --verbose=1
-/usr/local/bin/clang++      -v CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff44f 
+Linking CXX executable cmTC_3c789
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c789.dir/link.txt --verbose=1
+/usr/local/bin/clang++      -v CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3c789 
 clang version 8.0.1 (tags/RELEASE_801/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -260,7 +260,7 @@ Candidate multilib: .;@m64
 Candidate multilib: 32;@m32
 Candidate multilib: x32;@mx32
 Selected multilib: .;@m64
- "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ff44f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3c789 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -290,10 +290,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ff44f/fast && /usr/bin/make  -f CMakeFiles/cmTC_ff44f.dir/build.make CMakeFiles/cmTC_ff44f.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3c789/fast && /usr/bin/make  -f CMakeFiles/cmTC_3c789.dir/build.make CMakeFiles/cmTC_3c789.dir/build]
   ignore line: [make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/local/bin/clang++    -v -o CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/clang++    -v -o CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -308,7 +308,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [ "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
+  ignore line: [ "/usr/local/bin/clang-8" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/local/lib/clang/8.0.1 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/local/include -internal-isystem /usr/local/lib/clang/8.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
   ignore line: [clang -cc1 version 8.0.1 based upon LLVM 8.0.1 default target x86_64-unknown-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"]
@@ -322,9 +322,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_ff44f]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff44f.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/bin/clang++      -v CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ff44f ]
+  ignore line: [Linking CXX executable cmTC_3c789]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c789.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/clang++      -v CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3c789 ]
   ignore line: [clang version 8.0.1 (tags/RELEASE_801/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -339,7 +339,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@mx32]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ff44f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" --hash-style=both --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_3c789 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/local/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [--hash-style=both] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -348,7 +348,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ff44f] ==> ignore
+    arg [cmTC_3c789] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
@@ -364,7 +364,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/bin/../lib] ==> dir [/usr/local/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_ff44f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_3c789.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -394,13 +394,13 @@ Parsed CXX implicit link information from above output:
 Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_MIN succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_243dc/fast && /usr/bin/make  -f CMakeFiles/cmTC_243dc.dir/build.make CMakeFiles/cmTC_243dc.dir/build
+Run Build Command(s):/usr/bin/make cmTC_6ab80/fast && /usr/bin/make  -f CMakeFiles/cmTC_6ab80.dir/build.make CMakeFiles/cmTC_6ab80.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_243dc.dir/src.cxx.o
-/usr/local/bin/clang++    -DLLVM_LIBSTDCXX_MIN  -std=c++0x   -o CMakeFiles/cmTC_243dc.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_243dc
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_243dc.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -DLLVM_LIBSTDCXX_MIN  -std=c++0x    CMakeFiles/cmTC_243dc.dir/src.cxx.o  -o cmTC_243dc 
+Building CXX object CMakeFiles/cmTC_6ab80.dir/src.cxx.o
+/usr/local/bin/clang++    -DLLVM_LIBSTDCXX_MIN  -std=c++0x   -o CMakeFiles/cmTC_6ab80.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6ab80
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ab80.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -DLLVM_LIBSTDCXX_MIN  -std=c++0x    CMakeFiles/cmTC_6ab80.dir/src.cxx.o  -o cmTC_6ab80 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -417,13 +417,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_SOFT_ERROR succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_30a51/fast && /usr/bin/make  -f CMakeFiles/cmTC_30a51.dir/build.make CMakeFiles/cmTC_30a51.dir/build
+Run Build Command(s):/usr/bin/make cmTC_9f2b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_9f2b5.dir/build.make CMakeFiles/cmTC_9f2b5.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_30a51.dir/src.cxx.o
-/usr/local/bin/clang++    -DLLVM_LIBSTDCXX_SOFT_ERROR  -std=c++0x   -o CMakeFiles/cmTC_30a51.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_30a51
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30a51.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -DLLVM_LIBSTDCXX_SOFT_ERROR  -std=c++0x    CMakeFiles/cmTC_30a51.dir/src.cxx.o  -o cmTC_30a51 
+Building CXX object CMakeFiles/cmTC_9f2b5.dir/src.cxx.o
+/usr/local/bin/clang++    -DLLVM_LIBSTDCXX_SOFT_ERROR  -std=c++0x   -o CMakeFiles/cmTC_9f2b5.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9f2b5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f2b5.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -DLLVM_LIBSTDCXX_SOFT_ERROR  -std=c++0x    CMakeFiles/cmTC_9f2b5.dir/src.cxx.o  -o cmTC_9f2b5 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -440,13 +440,13 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fbce6/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbce6.dir/build.make CMakeFiles/cmTC_fbce6.dir/build
+Run Build Command(s):/usr/bin/make cmTC_819b6/fast && /usr/bin/make  -f CMakeFiles/cmTC_819b6.dir/build.make CMakeFiles/cmTC_819b6.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fbce6.dir/src.c.o
-/usr/local/bin/clang   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_fbce6.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_fbce6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbce6.dir/link.txt --verbose=1
-/usr/local/bin/clang  -DC_SUPPORTS_FPIC    CMakeFiles/cmTC_fbce6.dir/src.c.o  -o cmTC_fbce6 
+Building C object CMakeFiles/cmTC_819b6.dir/src.c.o
+/usr/local/bin/clang   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_819b6.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_819b6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_819b6.dir/link.txt --verbose=1
+/usr/local/bin/clang  -DC_SUPPORTS_FPIC    CMakeFiles/cmTC_819b6.dir/src.c.o  -o cmTC_819b6 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -455,13 +455,13 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c5f32/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5f32.dir/build.make CMakeFiles/cmTC_c5f32.dir/build
+Run Build Command(s):/usr/bin/make cmTC_07a6f/fast && /usr/bin/make  -f CMakeFiles/cmTC_07a6f.dir/build.make CMakeFiles/cmTC_07a6f.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c5f32.dir/src.cxx.o
-/usr/local/bin/clang++    -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_c5f32.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_c5f32
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5f32.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTC_c5f32.dir/src.cxx.o  -o cmTC_c5f32 
+Building CXX object CMakeFiles/cmTC_07a6f.dir/src.cxx.o
+/usr/local/bin/clang++    -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_07a6f.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07a6f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07a6f.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTC_07a6f.dir/src.cxx.o  -o cmTC_07a6f 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -470,13 +470,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b694b/fast && /usr/bin/make  -f CMakeFiles/cmTC_b694b.dir/build.make CMakeFiles/cmTC_b694b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_38370/fast && /usr/bin/make  -f CMakeFiles/cmTC_38370.dir/build.make CMakeFiles/cmTC_38370.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b694b.dir/src.cxx.o
-/usr/local/bin/clang++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b694b.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b694b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b694b.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTC_b694b.dir/src.cxx.o  -o cmTC_b694b 
+Building CXX object CMakeFiles/cmTC_38370.dir/src.cxx.o
+/usr/local/bin/clang++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_38370.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_38370
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38370.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTC_38370.dir/src.cxx.o  -o cmTC_38370 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -485,13 +485,13 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3a0e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_3a0e5.dir/build.make CMakeFiles/cmTC_3a0e5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_75223/fast && /usr/bin/make  -f CMakeFiles/cmTC_75223.dir/build.make CMakeFiles/cmTC_75223.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a0e5.dir/src.c.o
-/usr/local/bin/clang   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_3a0e5.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_3a0e5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a0e5.dir/link.txt --verbose=1
-/usr/local/bin/clang  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_3a0e5.dir/src.c.o  -o cmTC_3a0e5 
+Building C object CMakeFiles/cmTC_75223.dir/src.c.o
+/usr/local/bin/clang   -fPIC -DC_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_75223.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75223
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75223.dir/link.txt --verbose=1
+/usr/local/bin/clang  -fPIC -DC_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_75223.dir/src.c.o  -o cmTC_75223 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -500,13 +500,13 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_30db0/fast && /usr/bin/make  -f CMakeFiles/cmTC_30db0.dir/build.make CMakeFiles/cmTC_30db0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_79c07/fast && /usr/bin/make  -f CMakeFiles/cmTC_79c07.dir/build.make CMakeFiles/cmTC_79c07.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_30db0.dir/src.cxx.o
-/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_30db0.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_30db0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30db0.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_30db0.dir/src.cxx.o  -o cmTC_30db0 
+Building CXX object CMakeFiles/cmTC_79c07.dir/src.cxx.o
+/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_79c07.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_79c07
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79c07.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -DCXX_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_79c07.dir/src.cxx.o  -o cmTC_79c07 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -515,13 +515,13 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ee9fe/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee9fe.dir/build.make CMakeFiles/cmTC_ee9fe.dir/build
+Run Build Command(s):/usr/bin/make cmTC_9d56f/fast && /usr/bin/make  -f CMakeFiles/cmTC_9d56f.dir/build.make CMakeFiles/cmTC_9d56f.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee9fe.dir/src.c.o
-/usr/local/bin/clang   -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_ee9fe.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_ee9fe
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee9fe.dir/link.txt --verbose=1
-/usr/local/bin/clang  -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW    CMakeFiles/cmTC_ee9fe.dir/src.c.o  -o cmTC_ee9fe 
+Building C object CMakeFiles/cmTC_9d56f.dir/src.c.o
+/usr/local/bin/clang   -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_9d56f.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9d56f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d56f.dir/link.txt --verbose=1
+/usr/local/bin/clang  -fPIC -Werror=date-time -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW    CMakeFiles/cmTC_9d56f.dir/src.c.o  -o cmTC_9d56f 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -530,13 +530,13 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ec459/fast && /usr/bin/make  -f CMakeFiles/cmTC_ec459.dir/build.make CMakeFiles/cmTC_ec459.dir/build
+Run Build Command(s):/usr/bin/make cmTC_04a29/fast && /usr/bin/make  -f CMakeFiles/cmTC_04a29.dir/build.make CMakeFiles/cmTC_04a29.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ec459.dir/src.cxx.o
-/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_ec459.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ec459
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec459.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW    CMakeFiles/cmTC_ec459.dir/src.cxx.o  -o cmTC_ec459 
+Building CXX object CMakeFiles/cmTC_04a29.dir/src.cxx.o
+/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW   -Werror -Werror=unguarded-availability-new -o CMakeFiles/cmTC_04a29.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04a29
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04a29.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW    CMakeFiles/cmTC_04a29.dir/src.cxx.o  -o cmTC_04a29 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -545,13 +545,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_eaae1/fast && /usr/bin/make  -f CMakeFiles/cmTC_eaae1.dir/build.make CMakeFiles/cmTC_eaae1.dir/build
+Run Build Command(s):/usr/bin/make cmTC_719d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_719d2.dir/build.make CMakeFiles/cmTC_719d2.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eaae1.dir/src.cxx.o
-/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_eaae1.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_eaae1
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaae1.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTC_eaae1.dir/src.cxx.o  -o cmTC_eaae1 
+Building CXX object CMakeFiles/cmTC_719d2.dir/src.cxx.o
+/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_719d2.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_719d2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_719d2.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTC_719d2.dir/src.cxx.o  -o cmTC_719d2 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -560,13 +560,13 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_da320/fast && /usr/bin/make  -f CMakeFiles/cmTC_da320.dir/build.make CMakeFiles/cmTC_da320.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cc73a/fast && /usr/bin/make  -f CMakeFiles/cmTC_cc73a.dir/build.make CMakeFiles/cmTC_cc73a.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_da320.dir/src.c.o
-/usr/local/bin/clang   -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTC_da320.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_da320
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da320.dir/link.txt --verbose=1
-/usr/local/bin/clang  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FNO_FUNCTION_SECTIONS    CMakeFiles/cmTC_da320.dir/src.c.o  -o cmTC_da320 
+Building C object CMakeFiles/cmTC_cc73a.dir/src.c.o
+/usr/local/bin/clang   -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FNO_FUNCTION_SECTIONS   -Werror -fno-function-sections -o CMakeFiles/cmTC_cc73a.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cc73a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc73a.dir/link.txt --verbose=1
+/usr/local/bin/clang  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FNO_FUNCTION_SECTIONS    CMakeFiles/cmTC_cc73a.dir/src.c.o  -o cmTC_cc73a 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -575,13 +575,13 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b29d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_b29d2.dir/build.make CMakeFiles/cmTC_b29d2.dir/build
+Run Build Command(s):/usr/bin/make cmTC_15088/fast && /usr/bin/make  -f CMakeFiles/cmTC_15088.dir/build.make CMakeFiles/cmTC_15088.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b29d2.dir/src.c.o
-/usr/local/bin/clang   -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_b29d2.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_b29d2
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b29d2.dir/link.txt --verbose=1
-/usr/local/bin/clang  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTC_b29d2.dir/src.c.o  -o cmTC_b29d2 
+Building C object CMakeFiles/cmTC_15088.dir/src.c.o
+/usr/local/bin/clang   -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_15088.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_15088
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15088.dir/link.txt --verbose=1
+/usr/local/bin/clang  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -DC_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTC_15088.dir/src.c.o  -o cmTC_15088 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -590,13 +590,13 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b9e41/fast && /usr/bin/make  -f CMakeFiles/cmTC_b9e41.dir/build.make CMakeFiles/cmTC_b9e41.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f530b/fast && /usr/bin/make  -f CMakeFiles/cmTC_f530b.dir/build.make CMakeFiles/cmTC_f530b.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b9e41.dir/src.cxx.o
-/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_b9e41.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b9e41
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9e41.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -DCXX_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTC_b9e41.dir/src.cxx.o  -o cmTC_b9e41 
+Building CXX object CMakeFiles/cmTC_f530b.dir/src.cxx.o
+/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -DCXX_SUPPORTS_FFUNCTION_SECTIONS   -Werror -ffunction-sections -o CMakeFiles/cmTC_f530b.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f530b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f530b.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -DCXX_SUPPORTS_FFUNCTION_SECTIONS    CMakeFiles/cmTC_f530b.dir/src.cxx.o  -o cmTC_f530b 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -605,13 +605,13 @@ int main() { return 0; }
 Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_07879/fast && /usr/bin/make  -f CMakeFiles/cmTC_07879.dir/build.make CMakeFiles/cmTC_07879.dir/build
+Run Build Command(s):/usr/bin/make cmTC_dc47f/fast && /usr/bin/make  -f CMakeFiles/cmTC_dc47f.dir/build.make CMakeFiles/cmTC_dc47f.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07879.dir/src.c.o
-/usr/local/bin/clang   -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_07879.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_07879
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07879.dir/link.txt --verbose=1
-/usr/local/bin/clang  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTC_07879.dir/src.c.o  -o cmTC_07879 
+Building C object CMakeFiles/cmTC_dc47f.dir/src.c.o
+/usr/local/bin/clang   -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_dc47f.dir/src.c.o   -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dc47f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc47f.dir/link.txt --verbose=1
+/usr/local/bin/clang  -fPIC -Werror=date-time -Werror=unguarded-availability-new -w -ffunction-sections -DC_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTC_dc47f.dir/src.c.o  -o cmTC_dc47f 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 
@@ -620,13 +620,13 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
 Change Dir: /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_79983/fast && /usr/bin/make  -f CMakeFiles/cmTC_79983.dir/build.make CMakeFiles/cmTC_79983.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c0d90/fast && /usr/bin/make  -f CMakeFiles/cmTC_c0d90.dir/build.make CMakeFiles/cmTC_c0d90.dir/build
 make[1]: Entering directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_79983.dir/src.cxx.o
-/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_79983.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_79983
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79983.dir/link.txt --verbose=1
-/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTC_79983.dir/src.cxx.o  -o cmTC_79983 
+Building CXX object CMakeFiles/cmTC_c0d90.dir/src.cxx.o
+/usr/local/bin/clang++    -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS   -Werror -fdata-sections -o CMakeFiles/cmTC_c0d90.dir/src.cxx.o -c /home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c0d90
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0d90.dir/link.txt --verbose=1
+/usr/local/bin/clang++   -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -std=c++11 -w -ffunction-sections -DCXX_SUPPORTS_FDATA_SECTIONS    CMakeFiles/cmTC_c0d90.dir/src.cxx.o  -o cmTC_c0d90 
 make[1]: Leaving directory '/home/vagrant/hello-world-pass/build/CMakeFiles/CMakeTmp'
 
 

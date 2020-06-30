@@ -964,6 +964,4 @@ ClassQuery::Indices ClassQuery::getSupertypeIndices(const StructType *T,
 }
 
 char ClassQuery::ID = 0;
-static RegisterPass<ClassQuery> X("class-query",
-                                  "Class Queries",
-                                  false, true);
+static RegisterPass<ClassQuery> X("class-query", "Class Queries", false, true);

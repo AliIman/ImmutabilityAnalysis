@@ -160,6 +160,13 @@ Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/I
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/Database.cpp.o
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/build.make
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMSupport.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMCore.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMIRReader.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMAsmParser.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMBitReader.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMCore.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMBinaryFormat.a
+Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMSupport.a
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: /usr/local/lib/libLLVMDemangle.a
 Immutability/ImmutabilityAnalysis/libLLVMImmutabilityAnalysis.so: Immutability/ImmutabilityAnalysis/CMakeFiles/LLVMImmutabilityAnalysis.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vagrant/hello-world-pass/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared module libLLVMImmutabilityAnalysis.so"
